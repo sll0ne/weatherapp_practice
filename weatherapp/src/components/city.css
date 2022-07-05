@@ -1,0 +1,112 @@
+.inline {
+    display: inline-block;
+    /* border: 1px solid red;  */
+    margin: 10px;
+}
+
+.container-top {
+    /* Frame 2 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 214px;
+    height: 125px;
+    left: 618px;
+    top: 119px;
+}
+
+.temp-top {
+    margin-top: 0 auto;
+    display: inline-block;
+}
+
+.Today {
+    position: absolute;
+    width: 131px;
+    height: 47px;
+    left: 655px;
+    top: 64px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+    /* identical to box height, or 47px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.temperature {
+    width: 90px;
+    height: 125px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 130%;
+    /* identical to box height, or 125px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.Frame2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 214px;
+    height: 125px;
+    left: 618px;
+    top: 119px;
+}
+
+.Sunny {
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 665px;
+    top: 252px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.ico {
+    margin: -10%
+}
+
+
+/* {Math.round(this.props.data.main.temp)}
+
+{this.props.data.weather.description} */
