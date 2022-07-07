@@ -64,10 +64,10 @@ class Details extends React.Component {
                 </div>
                 <div className="fifth">
                     <div className="visibility">
-                        Видимость
+                        Вероятность осадков
                     </div>
                     <div className="visibility-properties">
-                        {/* {this.props.data.visibility / 1000} км */}
+                        {this.props.data ? <>{this.props.data.pop * 100}</> : null}%
                     </div>
                 </div>
                 <div className='border-2'></div>
